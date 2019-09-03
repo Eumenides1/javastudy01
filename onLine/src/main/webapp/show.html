@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主播开播</title>
+</head>
+<body>
+    <!--如何使用浏览器调用设备的摄像头，并且能够获取到他的资源，展示出来-->
+    <video src="" id="vi" autoplay style="width: 640px;height: 480px"></video>
+    <script type="text/javascript">
+        function draw() {
+            //
+            navigator.getUserMedia = navigator.getUserMedia ||
+                                        navigator.webkitGetUserMedia ||
+                                            navigator.mozGetUserMedia;
+            //配置
+            navigator.getUserMedia({video:true,audio:true},success(),console.log);
+            
+        }
+        var success = function (stream) {
+            document.getElementById("vi").src = window.URL.createObjectURL(stream);
+        }
+
+        draw();
+    </script>
+</body>
+</html>

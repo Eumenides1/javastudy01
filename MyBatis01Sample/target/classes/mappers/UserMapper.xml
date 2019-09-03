@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace = "SSM.Mapper.UserMapper">
+
+    <!--通过子节点配置与抽象方法的映射关系-->
+    <insert id="createUser"
+            parameterType="SSM.Bean.User"
+            useGeneratedKeys= "true"
+            keyProperty="id">
+        INSERT INTO t_user (
+            username,password,phone,email
+        ) VALUES (
+            #{username},#{password},#{phone},#{email}
+        )
+    </insert>
+
+    <!--查询-->
+    <select id="findUserByUsername" resultType="SSM.Bean.User">
+        SELECT
+            id,username,password,phone,email
+        FROM
+            t_user
+        WHERE
+            username=#{username}
+    </select>
+
+    <select id="findAllUser" resultType="SSM.Bean.User">
+        SELECT
+            id,username,password,phone,email
+        FROM
+            t_user
+    </select>
+
+    <select id="findUserByID" resultType="SSM.Bean.User">
+         SELECT
+            id,username,password,phone,email
+        FROM
+            t_user
+        WHERE
+            id=#{id}
+    </select>
+
+
+    <delete id="deleteById">
+        DELETE FROM
+            t_user
+        WHERE
+            id=#{id}
+    </delete>
+
+    <update id="updateUserInfo" parameterType="SSM.Bean.User">
+        UPDATE
+            t_user
+        SET
+            password=#{password},
+            phone=#{phone},
+            email=#{email}
+        WHERE
+            id=#{id}
+    </update>
+
+    <update id="update" parameterType="SSM.Bean.User">
+        UPDATE
+            t_user
+        SET
+            password=#{password},
+            <if test="phone != null">
+            phone = #{phone},
+            </if>
+            email=#{email}
+        WHERE
+            id=#{id}
+    </update>
+</mapper>
+
+
+
+
+
+
+

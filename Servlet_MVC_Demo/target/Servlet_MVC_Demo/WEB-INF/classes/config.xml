@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <!-- 配置模型（处理器）-->
+    <bean class="base.controller.HelloController"/>
+    <bean class="base.controller.loginController"/>
+</beans>

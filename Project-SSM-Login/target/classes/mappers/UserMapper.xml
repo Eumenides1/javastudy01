@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<mapper namespace="SSM.mapper.UserMapper">
+
+	<!-- void insert(User user) -->
+	<insert id="insert" 
+		parameterType="SSM.Bean.User"
+		useGeneratedKeys="true"
+		keyProperty="id">
+		INSERT INTO t_user (
+			username, password, 
+			phone, email
+		) VALUES (
+			#{username}, #{password},
+			#{phone}, #{email}
+		)	
+	</insert>
+
+	<!-- User findUserByUsername(
+		String username) -->
+	<select id="findUserByUsername"
+		resultType="SSM.Bean.User">
+		SELECT 
+			id, username, password, phone, email
+		FROM 
+			t_user 
+		WHERE 
+			username=#{username}	
+	</select>
+
+</mapper>
+
+
+
+
+
+
+

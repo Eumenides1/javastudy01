@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="TeduStore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b82ab93d-814a-49ce-8705-80b86aec5bed" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OZf4scEeSOYBSbhx4nfz6X21sP" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.44577205" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAWorkSpace\TeduStore\src\main\webapp" />
+      <recent name="D:\IDEAWorkSpace\TeduStore\src\main\Resources" />
+      <recent name="D:\IDEAWorkSpace\TeduStore\src\main\Resources\mapper" />
+      <recent name="D:\IDEAWorkSpace\TeduStore\src\main\java\cn\tedu\store" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAWorkSpace\TeduStore\src\main\Resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.163">
+    <configuration name="TestDemo.testEditProfile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeduStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testEditProfile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeduStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.testServiceLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeduStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testServiceLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.testServiceRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeduStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testServiceRegister" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.testUpdatePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TeduStore" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDemo" />
+      <option name="METHOD_NAME" value="testUpdatePassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.163" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.163" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="TeduStore:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/TeduStore" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TeduStore" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51740" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="TeduStore:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TestDemo.testInsert" />
+      <item itemvalue="JUnit.TestDemo.testServiceRegister" />
+      <item itemvalue="JUnit.TestDemo.testServiceLogin" />
+      <item itemvalue="JUnit.TestDemo.testUpdatePassword" />
+      <item itemvalue="JUnit.TestDemo.testEditProfile" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.163" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestDemo.testEditProfile" />
+        <item itemvalue="JUnit.TestDemo.testUpdatePassword" />
+        <item itemvalue="JUnit.TestDemo.testServiceLogin" />
+        <item itemvalue="JUnit.TestDemo.testServiceRegister" />
+        <item itemvalue="JUnit.TestDemo.testInsert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b82ab93d-814a-49ce-8705-80b86aec5bed" name="Default Changelist" comment="" />
+      <created>1559622543158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559622543158</updated>
+      <workItem from="1559622545155" duration="5185000" />
+      <workItem from="1559627846012" duration="524000" />
+      <workItem from="1559628400411" duration="11353000" />
+      <workItem from="1559710404072" duration="11760000" />
+      <workItem from="1559739878175" duration="9000" />
+      <workItem from="1559781049575" duration="19126000" />
+      <workItem from="1559872692169" duration="17152000" />
+      <workItem from="1559965340485" duration="6204000" />
+      <workItem from="1560231672710" duration="731000" />
+      <workItem from="1561005998837" duration="3168000" />
+      <workItem from="1561094583209" duration="7083000" />
+      <workItem from="1561183633416" duration="1212000" />
+      <workItem from="1561368894484" duration="696000" />
+      <workItem from="1563504353993" duration="4179000" />
+      <workItem from="1563611787082" duration="642000" />
+      <workItem from="1564101788143" duration="13680000" />
+      <workItem from="1564189854381" duration="217000" />
+      <workItem from="1564190106142" duration="157000" />
+      <workItem from="1564190299835" duration="1350000" />
+      <workItem from="1564193892011" duration="89000" />
+      <workItem from="1566618379172" duration="1815000" />
+      <workItem from="1567348263787" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestDemo_testServiceLogin - 2019.06.06 at 11h 55m 26s.xml">
+      <configuration name="TestDemo.testServiceLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testServiceLogin - 2019.06.06 at 14h 13m 14s.xml">
+      <configuration name="TestDemo.testServiceLogin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testUpdatePassword - 2019.06.07 at 13h 28m 15s.xml">
+      <configuration name="TestDemo.testUpdatePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testUpdatePassword - 2019.06.07 at 13h 28m 38s.xml">
+      <configuration name="TestDemo.testUpdatePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testUpdatePassword - 2019.06.07 at 13h 28m 58s.xml">
+      <configuration name="TestDemo.testUpdatePassword" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testEditProfile - 2019.06.21 at 18h 55m 58s.xml">
+      <configuration name="TestDemo.testEditProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testEditProfile - 2019.06.21 at 18h 57m 52s.xml">
+      <configuration name="TestDemo.testEditProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testEditProfile - 2019.06.21 at 18h 58m 37s.xml">
+      <configuration name="TestDemo.testEditProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testEditProfile - 2019.06.21 at 19h 00m 23s.xml">
+      <configuration name="TestDemo.testEditProfile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_testEditProfile - 2019.06.21 at 19h 00m 50s.xml">
+      <configuration name="TestDemo.testEditProfile" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TeduStore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.44577205" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.44577205" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

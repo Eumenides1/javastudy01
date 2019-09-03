@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context" 
+	xmlns:jdbc="http://www.springframework.org/schema/jdbc"  
+	xmlns:jee="http://www.springframework.org/schema/jee" 
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" 
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.2.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+		http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd">
+
+	<bean id="userDao" class="Spring_03.UserDao"/>
+
+	<bean id="userService" class="Spring_03.UserService" autowire="byName"/>
+
+
+	<!--配置SampleBean-->
+	<bean id="sampleBean" class="Spring_List.SampleBean">
+		<property name="provinces">
+			<list>
+				<value>北京</value>
+				<value>上海</value>
+				<value>广东</value>
+			</list>
+		</property>
+		<property name="city">
+			<set>
+				<value>宝鸡</value>
+				<value>日照</value>
+				<value>铜川</value>
+			</set>
+		</property>
+		<property name="session">
+			<map>
+				<entry key="uid" value="9527"></entry>
+				<entry key="username" value="醒醒"></entry>
+				<entry key="pwd" value="123"></entry>
+			</map>
+		</property>
+		<!--注入Properties-->
+		<property name="DBconfig" ref="dataSource"></property>
+	</bean>
+	<util:properties id="dataSource" location="classpath:db-config.properties"/>
+
+	<!--配置student-->
+	<bean id="stu" class="Spring_List.Student">
+		<!--配置读取List中的值-->
+		<property name="province" value="#{sampleBean.provinces[2]}"></property>
+		<!--配置读取整个Set-->
+		<property name="cities" value="#{sampleBean.city}"></property>
+		<!--配置读取Map的值-->
+		<property name="username" value="#{sampleBean.session['username']}"></property>
+		<!-- 配置读取Properties-->
+		<property name="jdbcUrl" value="#{sampleBean.DBconfig.url}"></property>
+		<property name="jdbcDriver" value="#{dataSource.driver}"></property>
+	</bean>
+</beans>
+
+
+
